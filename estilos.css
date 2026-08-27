@@ -1,0 +1,9 @@
+/* CSS DOCUMENT */
+@charset "UTF-8";
+
+@font-face {
+    font-family:"Bebas Bold" ;
+    src: url(fonts/BebasNeue\ Bold.otf) format(ttf);
+font-weight: normal;
+font-style: normal;
+}
