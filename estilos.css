@@ -26,22 +26,34 @@ h1 {
 h2 {
     font-size:25px;
     color: #333333;
-    border-bottom: 1px solid #999999
-    padding-bottom 5px;
+    border-bottom: 1px solid #999999;
+    padding-bottom: 5px;
     }
     /*ENCABEZADO*/
     header {
+        background-color:#f7f3ed;
         text-align:center;
         padding:30px;
-        border-bottom:2px solid #333333
+        border-bottom:2px solid #333333;
       }
+      .encabezado { 
+        max-width:800px;
+        margin:auto;
+        display:flex;
+        align-items:center;
+        gap:40px;
+        }
       /*IMAGEN*/
       header img {   
-        width:100px;
-        height: 100px;
+        width:120px;
+        height: 120px;
         object-fit: cover;
         border-radius:50%;
        }
+       .recurso-visual img {
+        width: 220px;
+        height: auto;
+        }
        /*CONTENIDO*/
        main {
         max-width:800px;
@@ -56,14 +68,27 @@ h2 {
             ul, ol{
                 padding-left: 25px;
                 }
+                .datos {
+                    list-style:none;
+                    padding-left:0;
+                    }
                 /*ENLACES*/
                 a{
-                    color: #333333;
-                    text-decoration:none;
+                    color: #0066cc;
+                    text-decoration:underline;
+                    font-weight: bold;
                     }
                     a:hover {
                         text-decoration:underline;
                         }
+                        .contenedor-diseño {
+                            display:flex;
+                            align-items: center;
+                            gap: 25px;
+                            background: #faf8f5;
+                            padding: 20px;
+                            border-radius: 8px;
+                            }
                         /*PIE DE PAGINA*/
                         footer{
                             max-width:800px;
