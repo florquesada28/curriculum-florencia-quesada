@@ -1,6 +1,6 @@
 /* CSS DOCUMENT */
 @charset "UTF-8";
-
+/* este archivo también está mal indentado*/
 @font-face {
     font-family:"Bebas Bold";
     src: url("fonts/BebasNeue_Bold.otf") format("opentype");
@@ -8,7 +8,7 @@ font-weight: normal;
 font-style: normal;
 }
 body {
-    font-family:Arial, sans-serif;
+    font-family:Arial, sans-serif; /*no incluiste ni el font-face ni el link externo a esta tipografía, ojo*/
     margin:0;
     background-color:white;
     color:#333333;
@@ -46,8 +46,8 @@ h2 {
       /*IMAGEN*/
       header img {   
         width:120px;
-        height: 120px;
-        object-fit: cover;
+        height: 120px; /* las propiedades de altura de una img van en html, no en css, estás repitiendo esto en todas las img*/
+        object-fit: cover; /*qué significa esta propiedad?*/
         border-radius:50%;
        }
        .recurso-visual img {
