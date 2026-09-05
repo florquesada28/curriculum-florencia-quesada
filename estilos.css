@@ -1,6 +1,6 @@
 /* CSS DOCUMENT */
 @charset "UTF-8";
-
+/* este archivo también está mal indentado*/
 @font-face {
     font-family:"Bebas Bold";
     src: url("fonts/BebasNeue_Bold.otf") format("opentype");
@@ -8,7 +8,7 @@ font-weight: normal;
 font-style: normal;
 }
 body {
-    font-family:Arial, sans-serif;
+    font-family:Arial, sans-serif; /*no incluiste ni el font-face ni el link externo a esta tipografía, ojo*/
     margin:0;
     background-color:white;
     color:#333333;
