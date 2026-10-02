@@ -56,6 +56,7 @@
     font-style: normal;
 }
 
+/* este archivo también está mal indentado*/
 @font-face {
     font-family: "inter";
     src: url("fonts/inter_28pt-regular.ttf") format("truetype");
@@ -78,6 +79,11 @@ body {
     background-attachment: fixed;
     color: #333333;
     line-height: 1.6;
+    font-family:Arial, sans-serif; /*no incluiste ni el font-face ni el link externo a esta tipografía, ojo*/
+    margin:0;
+    background-color:white;
+    color:#333333;
+    line-height:1.6;
 }
 
 /*TITULOS*/
@@ -130,6 +136,73 @@ header img {
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0,0,0,0.12);
     }
+    /*ENCABEZADO*/
+    header {
+        background-color:#f7f3ed;
+        text-align:center;
+        padding:30px;
+        border-bottom:2px solid #333333;
+      }
+      .encabezado { 
+        max-width:800px;
+        margin:auto;
+        display:flex;
+        align-items:center;
+        gap:40px;
+        }
+      /*IMAGEN*/
+      header img {   
+        width:120px;
+        height: 120px; /* las propiedades de altura de una img van en html, no en css, estás repitiendo esto en todas las img*/
+        object-fit: cover; /*qué significa esta propiedad?*/
+        border-radius:50%;
+       }
+       .recurso-visual img {
+        width: 220px;
+        height: auto;
+        }
+       /*CONTENIDO*/
+       main {
+        max-width:800px;
+        margin:auto;
+        padding:30px;
+        }
+        /*SECCIONES*/
+        section {
+            margin-bottom: 30px;
+            }
+            /*LISTAS*/
+            ul, ol{
+                padding-left: 25px;
+                }
+                .datos {
+                    list-style:none;
+                    padding-left:0;
+                    }
+                /*ENLACES*/
+                a{
+                    color: #0066cc;
+                    text-decoration:underline;
+                    font-weight: bold;
+                    }
+                    a:hover {
+                        text-decoration:underline;
+                        }
+                        .contenedor-diseño {
+                            display:flex;
+                            align-items: center;
+                            gap: 25px;
+                            background: #faf8f5;
+                            padding: 20px;
+                            border-radius: 8px;
+                            }
+                        /*PIE DE PAGINA*/
+                        footer{
+                            max-width:800px;
+                            margin:auto;
+                            padding:20px 30px 40px;
+                            border-top: 1px solid #999999;
+                            }
 
 /*CONTENIDO*/
 main {
