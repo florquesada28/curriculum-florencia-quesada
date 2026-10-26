@@ -1,189 +1,86 @@
 <!DOCTYPE html>
-
-<!--el indentado general no es correcto-->
-<html>
-
+<html lang="es">
 <head>
-    <meta charset="utf-8" />
-    <title>Curriculum Vitae - Florencia Quesada</title>
+    <meta charset="utf-8">
+    <title>Margen - Portfolio 2026</title>
     <link rel="stylesheet" href="estilos.css">
     <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
-
 <body>
     <header>
-        <div class="encabezado">
-            <img src="img/foto.jpg" alt="foto de florencia quesada" width="170" height="170">
-            <div class="presentacion">
-                <h1>Florencia Quesada</h1>
-                <p class="subtitulo">Estudiante de Diseño y Comunicación Visual</p>
-                <h2>Datos Personales</h2>
-                <ul class="datos">
-                    <li><span class="etiquetas">Edad:</span> 24 años</li>
-                    <li><span class="etiquetas">Localidad:</span> Burzaco</li>
-                    <li><span class="etiquetas">Email:</span> flor.quesada@gmail.com</li>
-                    <li><span class="etiquetas">Teléfono:</span> 11-5454-1224</li>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="grid-secciones">
-            <div class="columna">
-        <section class="tarjeta">
-            <h2>Perfil</h2>
-            <p>
-                Estudiante de Diseño y Comunicación Visual, también cuento con experiencia como masajista y atención al
-                cliente
-            </p>
-        </section>
-        <section class="tarjeta">
-            <h2>Educación</h2>
-            <ul>
-                <li>Universidad Nacional de Lanús</li>
-                <li>Diseño y Comunicación Visual</li>
+        <nav class="navegacion-principal">
+            <ul class="menu">
+                <li><a href="sobre-mi.html">SOBRE MÍ</a></li>
+                <li><a href="proyectos.html">PROYECTOS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
             </ul>
-        </section>
-        <section class="tarjeta">
-    <!--falta el favicon-->
-    </head>
-    <body>
-   <header>
-    <div class="encabezado">
-    <img src="img/foto.jpg" alt="foto de florencia quesada">
-    <div class="presentacion">
-    <h1>Florencia Quesada</h1>
-    <p class="subtitulo">Estudiante de Diseño y Comunicación Visual</p>
-    <h2>Datos Personales</h2>
-    <ul class="datos">
-        <li>Edad: 24 años</li>
-        <li>Localidad: Burzaco</li>
-        <li>Email: flor.quesada@gmail.com</li>
-        <li>Teléfono: 11-5454-1224</li>
-        <li>
-        <a href="https://www.instagram.com/floriearte/" target="_blank">
-            Instagram
+            <a href="index.html" class="logo-link">
+                <img src="img/favicon.png" alt="Logo Margen">
             </a>
-        </li>
-    </ul>
-</div>
-</div>
-   </header>
-   <main>
-    <section>
-        <h2>Perfil</h2>
-        <p>
-            Estudiante de Diseño y Comunicación Visual, también cuento con experiencia como masajista y atención al cliente
-        </p>
-    </section>
-    <section>
-        <h2>Educación</h2>
-        <ul>
-            <li>
-                Universidad Nacional de Lanús
-                <br> <!--en clases pedimos que no utilicen br para dividir contenido, si estos son dos elementos son dos li, y sino son dos p dentro de una li-->
-                Diseño y Comunicación Visual
-            </li>
-        </ul>
-    </section>
-    <section>
-        <h2>Experiencia laboral</h2>
-        <ol>
-            <li>
-                <strong>Masajista</strong><!--strong tamién es considerada una etiqueta de "diseño" es mejor utilizar alguno de los heading según la jerarquía de información buscada-->
-                <p>
-                    Atención a clientes y realización de masajes
-                </p>
-            </li>
-            <li>
-                <strong>Diseñadora gráfica freelance</strong>
-                <p>
-                    Creación de piezas gráficas para redes sociales, flyers y contenido visual
-                </p>
-            </li>
-        </ol>
-    </section>
-    <section>
-        <h2>Habilidades</h2>
-        <ul>
-            <li>Diseño gráfico</li>
-            <li>Adobe Photoshop</li>
-            <li>Adobe Illustrator</li>
-            <li>Canva</li>
-            <li>Edición de imágenes</li>
-            <li>Diseño para redes sociales</li>
-            <li>Comunicación visual</li>
-            <li>Trabajo en equipo</li>
-        </ul>
-    </section>
-    <section>
-        <section class="seccion-diseño"> <!--es semánticamente incorrecto incluir una section dentro de una section-->
-            <h2>Software y Herramientas</h2>
-            <div class="contenedor-diseño">
-                <p>Manejo de herramientas digitales para proyectos de diseño, retoque fotográfico y maquetación</p>
-                <img src="img/images.jpg" alt="recurso visual relacionado al diseño">
-                </div>
-    </section>
-    <section>
-        <h2>Idiomas</h2>
-                    <ul>
-                        <li>Español - Nativo</li>
-                        <li>Inglés - Intermedio</li>
-                    </ul>
+        </nav>
+    </header>
+<main>
+        <section class="hero">
+            <div class="hero-textos">
+                <h1>MAR GEN</h1>
+                <h2>PORTFOLIO 2026</h2>
+            </div>
+            <div class="background">
+                <img src="img/fondo-hero.png" alt="Fondo decorativo de Margen">
+            </div>
         </section>
-         <section class="tarjeta">
-            <h2>Software y Herramientas</h2>
-               <p>Manejo de herramientas digitales para proyectos de diseño, retoque fotográfico y maquetación</p>
-               <div class="contenedor-iconos">
-                    <img src="img/images.png" alt="logo ps" width="45" height="45">
-                    <img src="img/images (1).png" alt="logo ai" width="45" height="45">
-                    <img src="img/images 2.png" alt="logo id" width="45" height="45">
-                    </div>
-                </section>
-                </div>
-        <div class="columna">
-            <section class="tarjeta">
-            <h2>Experiencia laboral</h2>
-            <ol>
-                <li>
-                    <h3>Masajista</h3>
-                    <p>Atención a clientes y realización de masajes</p>
-                </li>
-                <li>
-                    <h3>Diseñadora gráfica freelance</h3>
-                    <p>Creación de piezas gráficas para redes sociales, flyers y contenido visual</p>
-                </li>
-            </ol>
+        <section class="introduccion">
+            <div class="div-intro-saludo">
+                <h2>¡Hola! soy Flor</h2>
+                <p>Este es mi portfolio, un espacio donde reúno una selección de proyectos que realicé a lo largo de mi recorrido en el diseño. Cada uno refleja distintas ideas, intereses y formas de abordar un proyecto.</p>
+            </div>
+            <div class="div-intro-contenido">
+                <h3>¿Qué es Margen?</h3>
+                <p>Lo que queda al costado también construye sentido. Nace de trazos y dibujos que solía hacer en los márgenes de las hojas, aparecían casi sin pensarlo  y aunque parecían quedar al costado de lo importante, también formaban parte de algo.
+Las ideas más interesantes pueden surgir cuando nos desviamos de lo previsto y exploramos nuevos caminos. En el diseño, esos hallazgos inesperados se convierten en conexiones y detalles que le dan identidad a una idea.
+Margen es una forma de mirar y crear desde ese lugar: entendiendo que lo que parece secundario puede abrir nuevas posibilidades y que incluso aquello que queda al costado, puede cambiar la manera en que interpretamos el conjunto. Porque lo que queda al costado también construye sentido.</p>
+                <img src="img/vector.svg" alt="Flor decorativa" class="svg-flor-decorativa">
+            </div>
         </section>
-        <section class="tarjeta">
-            <h2>Habilidades</h2>
-            <ul class="lista-habilidades">
-                <li>Diseño gráfico</li>
-                <li>Adobe Photoshop</li>
-                <li>Adobe Illustrator</li>
-                <li>Canva</li>
-                <li>Edición de imágenes</li>
-                <li>Diseño para redes sociales</li>
-                <li>Comunicación visual</li>
-                <li>Trabajo en equipo</li>
-            </ul>
+        <section class="seccion-proyectos">
+            <h2>PROYECTOS</h2>
+            <div class="div-carrusel-proyectos">
+                <article class="div-tarjeta-proyecto">
+                    <img src="img/mockup-ruido.jpg" alt="Proyecto Ruido">
+                </article>
+                <article class="div-tarjeta-proyecto">
+                    <img src="img/mockup-peli.jpg" alt="Proyecto Esperando la Carroza">
+                </article>
+            </div>
         </section>
-                <section class="tarjeta">
-        <h2>Información adicional</h2>
-        <ul>
-            <li>Disponibilidad: lunes a viernes, de 9:00 a 18:00 hs</li>
-            <li>Modalidad: presencial y virtual</li>
-            <li>Interés en oportunidades relacionadas con diseño gráfico y comunicación visual</li>
-        </ul>
-         </section>
-         </div>
-         </div>
     </main>
     <footer>
         <div class="footer-contenido">
-            <p>© 2026 Florencia Quesada <a href="https://www.instagram.com/floriearte/" target="_blank">Instagram</a></p>
-    </div>
+            <div class="div-col-1">
+                <p class="p-titulo-col">MENÚ</p>
+                <ul>
+                    <li>INICIO</li>
+                    <li>SOBRE MÍ</li>
+                    <li>CONTACTO</li>
+                    <li>PROYECTOS</li>
+                </ul>
+            </div>
+            <div class="div-col-2">
+                <p class="p-titulo-col">REDES</p>
+                <ul>
+                    <li>INSTAGRAM</li>
+                    <li>BEHANCE</li>
+                    <li>LINKEDIN</li>
+                </ul>
+            </div>
+            <div class="h2-gracias">
+                <h2>GRACIAS POR VER</h2>
+            </div>
+        </div>
+        <div class="div-copyright">
+            <img src="img/favicon.png" alt="Logo miniatura">
+            <p>Todos los derechos reservados ® 2026</p>
+        </div>
     </footer>
 </body>
-
 </html>
