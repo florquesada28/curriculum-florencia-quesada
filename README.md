@@ -2,3 +2,4 @@ Este trabajo práctico consiste en el desarrollo de un portfolio web personal ma
 Se usó la tipografía Archivo en sus distintos pesos (como Thin Italic para subtítulos y Semibold para los títulos principales)
 Editor de código: Visual Studio Code
 Tamaño de pantalla: 1920 x 1080
+https://www.figma.com/design/agkwqFzLiIs7K17ilMjsbd/portfolio-tp3?node-id=0-1&t=37yPRo32PDgdDlXq-1
